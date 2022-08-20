@@ -1,57 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://cdn.tailwindcss.com"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <meta name='robots'   content='follow, index' />
-    <meta name='description' content='Learning Engineer at @platzi - Frontend Developer - #JavaScript #TypeScript #Html5 #Css3 #React #Next #Nvim #Web3 #BTC #ETH ' />
-    <meta property='og:url'  content='https://keepsimpleweb.github.io' />
-    <meta property='og:type' content='website' />
-    <meta property='og:site_name'   content='Rodrigo Moreno aka CheatModes4' />
-    <meta property='og:description' content='Learning Engineer at @platzi - Frontend Developer - #JavaScript #TypeScript #Html5 #Css3 #React #Next #Nvim #Web3 #BTC #ETH ' />
-    <meta property='og:title'  content='Rodrigo Moreno' />
-    <meta property='og:image'  content='https://pbs.twimg.com/profile_images/1490328824411787264/aZ4btbsP_400x400.jpg' />
-    <meta property='og:locale' content='es_ES' />
-    <meta name='twitter:card'  content='summary_large_image' />
-    <meta name='twitter:title' content='Rodrigo Moreno aka CheatModes4' />
-    <meta name='twitter:description' content='Learning Engineer at @platzi - Frontend Developer - #JavaScript #TypeScript #Html5 #Css3 #React #Next #Nvim #Web3 #BTC #ETH' />
-    <meta name='twitter:image'   content='https://pbs.twimg.com/profile_images/1490328824411787264/aZ4btbsP_400x400.jpg' />
-    <meta name='twitter:site'    content='@CheatModes4' />
-    <meta name='twitter:creator' content='@CheatModes4' />
+  <meta name='robots'   content='follow, index' />
+  <meta name='description' content='Learning Engineer at @platzi - Frontend Developer - #JavaScript #TypeScript #Html5 #Css3 #React #Next #Nvim #Web3 #BTC #ETH ' />
+  <meta property='og:url'  content='https://keepsimpleweb.github.io' />
+  <meta property='og:type' content='website' />
+  <meta property='og:site_name'   content='Rodrigo Moreno aka CheatModes4' />
+  <meta property='og:description' content='Learning Engineer at @platzi - Frontend Developer - #JavaScript #TypeScript #Html5 #Css3 #React #Next #Nvim #Web3 #BTC #ETH ' />
+  <meta property='og:title'  content='Rodrigo Moreno' />
+  <meta property='og:image'  content='https://pbs.twimg.com/profile_images/1490328824411787264/aZ4btbsP_400x400.jpg' />
+  <meta property='og:locale' content='es_ES' />
+  <meta name='twitter:card'  content='summary_large_image' />
+  <meta name='twitter:title' content='Rodrigo Moreno aka CheatModes4' />
+  <meta name='twitter:description' content='Learning Engineer at @platzi - Frontend Developer - #JavaScript #TypeScript #Html5 #Css3 #React #Next #Nvim #Web3 #BTC #ETH' />
+  <meta name='twitter:image'   content='https://pbs.twimg.com/profile_images/1490328824411787264/aZ4btbsP_400x400.jpg' />
+  <meta name='twitter:site'    content='@CheatModes4' />
+  <meta name='twitter:creator' content='@CheatModes4' />
 
-	  <link   rel='preload'       href='./backgroundVideo.mp4' as='video' />
-	  <link   rel='shortcut icon' href='https://pbs.twimg.com/profile_images/1490328824411787264/aZ4btbsP_400x400.jpg' type='image/x-icon'>
-    <meta   name='description'  content='me-of-cheatmodes4-rroderickk' >
-	  <meta   name='author'       content='CheatModes4-rroderickk' />
-		<title>@CheatModes4</title>
+  <link   rel='preload'       href='./backgroundVideo.mp4' as='video' />
+  <link   rel='shortcut icon' href='https://pbs.twimg.com/profile_images/1490328824411787264/aZ4btbsP_400x400.jpg' type='image/x-icon'>
+  <meta   name='description'  content='me-of-cheatmodes4-rroderickk' >
+  <meta   name='author'       content='CheatModes4-rroderickk' />
+  <title>@CheatModes4</title>
 
-	</head>
 	<style>
+   body {
+      top: 0;
+      opacity: 0;
+      filter: blur(13px);
+      transition: opacity 2s ease-in-out, filter 1s ease-in-out;
+    }
 		video {
-			width: 100vw;
-			height: 100vh;
+      width: 100%;
+      height: 100%;
 			position: absolute;
 			z-index: -1;
 		}
 	</style>
 
-	<body class="bg-gray-900 antialiased block font-sans">
-		<a href="https://github.com/rroderickk/" target="_blank">
-			<h1
-				class="text-6xl z-20 text-[rgb(0,0,0,0.6)] left-0 right-0 mx-auto mix-blend-overlay font-bold bg-transparent absolute h-screen items-center center flex justify-center"
-			>
-				@CheatModes4
-			</h1>
-		</a>
-		<div
-			class="absolute w-[100vw] h-[100vh] bg-[rgb(255,255,255,0.4)] brightness-[130%] blur-[130px] z-9 overflow-hidden"
-		>
-			<video autoplay muted loop>
-				<source src="./backgroundVideo.mp4" type="video/mp4" />
-			</video>
-		</div>
+  <script>
+    setTimeout(function() {
+      const main = document.querySelector('body')
+      main.style.opacity = 1
+      main.style.filter = 'blur(0px)'
+    }, 1000)
+  </script>
+</head>
+
+	<body class="bg-slate-900 antialiased block font-sans">
+    <div>
+      <a href="https://github.com/rroderickk/" target="_blank">
+        <h1
+          class="text-4xl z-20 text-[rgb(0,0,0,0.6)] left-0 right-0 
+          mx-auto mix-blend-overlay font-bold bg-transparent absolute 
+          h-screen items-center center flex justify-center
+          sm:text-6xl md:text-7xl lg:text-5xl xl:text-7xl 2xl:text-7xl"
+        >
+          @CheatModes4
+        </h1>
+      </body>
+      <div
+        class="absolute w-[100vw] h-[100vh] bg-[rgb(255,255,255,0.4)] brightness-[130%] blur-[130px] z-9 overflow-hidden"
+      >
+        <video autoplay muted loop>
+          <source src="./backgroundVideo.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
 	</body>
 </html>
